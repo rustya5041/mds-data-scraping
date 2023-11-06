@@ -1,0 +1,49 @@
+/* style for my cv page */
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 5px;
+    color: #05055a;
+}
+
+.quad_ec 
+ {  color: #05055a;
+    font-size: 24;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: #00000;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* center img */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* center h2 */
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet", href="{{ url_for('static', path='style.css') }}" rel="stylesheet">
+    <title>Quadratic equation plot</title>
+</head>
+
+<body>
+    <div class="quad_ec">
+    <h1>Quadratic Equation Plotting tool</h1>
+    <h2>Enter the parameters of the equation:</h2>
+    <h3>Equation: A * x^2 + B * x + C</h3>
+    <form action="/plot" method="post">
+        Enter A:<br>
+        <input type="text" name="a"><br>
+        Enter B:<br>
+        <input type="text" name="b"><br>
+        Enter C:<br>
+        <input type="text" name="c"><br><br>
+        <button type="submit">Plot the parabola</button>
+    </form>
+    </div>
+</body>
+</html>

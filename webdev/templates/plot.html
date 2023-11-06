@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet", href="{{ url_for('static', path='style.css') }}" rel="stylesheet">
+    <title>Plot</title>
+</head>
+<body>
+    <!-- equation passed to the param  -->
+    <h1>Results</h1>
+    <h3>A: {{a}}</h3>
+    <h3>B: {{b}}</h3>
+    <h3>C: {{c}}</h3>
+    <h3>Equation: ({{ a }}) * x^2 + ({{ b }}) * x + {{ c }} </h3>
+    <h3>Roots: {{ roots }}</h3>
+    <h2>Obtained plot</h2>
+    <img src="data:image/png;base64, {{ picture }}" alt="plot">
+</body>
+</html>

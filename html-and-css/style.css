@@ -1,0 +1,62 @@
+/* style for my cv page */
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 5px;
+}
+
+div {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+h2 {
+    color: #05055a;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+.header {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.header img {
+    float: right;
+    border-radius: 12%;
+    border: 1px solid #e6e6e6;
+    height: 300px;
+    width: 230px;
+}
+
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+
+table th {
+    border: 1px solid #000;
+    padding: 7px;
+    text-align: center;
+    background-color: #05055a;
+    color: #fff;
+}
+
+table td, table tr {
+    border: 1px solid #000;
+    padding: 7px;
+    border-collapse: collapse;
+    text-align: left;
+}
